@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="js/mapper.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <script src="js/d3cloud.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+    <!-- jQuery if needed -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <!-- <img src="Patronus.jpg" alt="Patronus Charm" id="patronus"> -->
+    <div id="header">
+      <div id="left"><img src="/img/headleft.png" alt="headleft.png"/></div>
+      <div id="right"><img src="/img/headright.png" alt="fheadleft.png"/></div>
+      <p id="title">Welcome to the Cartoon World of Harry Potter</p>
+      <p id="intro">Here, you are able to explore the relationships between characters by hovering over the lines on the chord plot. Also, you can view the basic demographics and most-used incantations of each character by putting your mouse on the ring clips or on that character’s name.</p>
+
+    </div>
+    <div id="diagram"><div id="firstSection"></div><div id="secondSection"><div id="peopleDes"></div></div></div>
+    <div id="tooltip"></div>
+
+<div id="p3_text">
+    <p>The line chart displays the popularity of Harry Potter character keywords search from 2004 to 2018. The position of the line indicates the level of popularity of Harry Potter characters search on Google, whereas the dots demonstrating the milestones - either news events or publications/screenings - happening in this period of time.</p>
+    <p>You can select two Harry Potter characters and compare the Google search popularity of these two characters. You are also able to see if any of these Harry Potter milestones has an impact on the search results.</p>
+    </div>
+  <section class="main">
+    <div class="wrapper-demo">
+      <div id="d1" class="wrapper-dropdown-3" tabindex="1" style="display:inline-block">
+        <span>Harry Potter</span>
+        <ul class="dropdown">
+          <li><a href="#">Harry Potter</a></li>
+          <li><a href="#">Lord Voldemort</a></li>
+          <li><a href="#">Hermione Granger</a></li>
+          <li><a href="#">Sirius Black</a></li>
+          <li><a href="#">Albus Dumbledore</a></li>
+          <li><a href="#">Draco Malfoy</a></li>
+          <li><a href="#">Cho Chang</a></li>
+          <li><a href="#">Severus Snape</a></li>
+        </ul>
+      </div>
+
+      <div id="d2" class="wrapper-dropdown-4" tabindex="1" style="display:inline-block">
+        <span>Severus Snape</span>
+        <ul class="dropdown">
+          <li><a href="#">Harry Potter</a></li>
+          <li><a href="#">Lord Voldemort</a></li>
+          <li><a href="#">Hermione Granger</a></li>
+          <li><a href="#">Sirius Black</a></li>
+          <li><a href="#">Albus Dumbledore</a></li>
+          <li><a href="#">Draco Malfoy</a></li>
+          <li><a href="#"></i>Cho Chang</a></li>
+          <li><a href="#"></i>Severus Snape</a></li>
+        </ul>
+      </div>
+
+      <button type="button" id="compareBtn" onclick="plotdata()">Compare</button>
+  </section>
+  </body>
+</html>

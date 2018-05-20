@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2005-07",
+    "type": "Book",
+    "version": "#6. the Half-Blood Prince"
+  },
+  {
+    "date": "2007-07",
+    "type": "Book",
+    "version": "#7. the Deathly Hallows"
+  },
+  {
+    "date": "2004-05",
+    "type": "Movie",
+    "version": "#3. the Prisoner of Azkaban"
+  },
+  {
+    "date": "2005-11",
+    "type": "Movie",
+    "version": "#4. the Goblet of Fire"
+  },
+  {
+    "date": "2007-07",
+    "type": "Movie",
+    "version": "#5. the Order of the Phoenix"
+  },
+  {
+    "date": "2009-07",
+    "type": "Movie",
+    "version": "#6. the Half-Blood Prince"
+  },
+  {
+    "date": "2010-11",
+    "type": "Movie",
+    "version": "#7. the Deathly Hallows – Part 1"
+  },
+  {
+    "date": "2011-07",
+    "type": "Movie",
+    "version": "#7. the Deathly Hallows – Part 2"
+  },
+  {
+    "date": "2016-11",
+    "type": "Movie",
+    "version": "Fantastic Beasts"
+  },
+  {
+    "date": "2016-01",
+    "type": "News",
+    "version": "Actor of Snape Passed Away"
+  },
+  {
+    "date": "2017-09",
+    "type": "News",
+    "version": "The date of \"19 years later\""
+  }
+
+]
